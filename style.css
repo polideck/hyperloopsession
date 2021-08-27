@@ -1,0 +1,58 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+#azloopName {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.azlooplogowhite {
+    width: 100vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attentiongrab, .secondline {
+    margin: 100px;
+    font-size: 30px;
+    width: 100vw;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.zoomlink {
+    color: white;
+}
+
+.addtocal {
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: 200ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.convertButton:hover, .convertButton:active {
+    background-color: rgb(185, 185, 185);
+}
